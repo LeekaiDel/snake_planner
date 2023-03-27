@@ -11,8 +11,8 @@ class GroupMissionTaskParser():
         self.resolution = 10    # Шаг разбиения фигуры на галсы змейки
         # Последняя точка проложенного маршрута к зоне исследования
         last_point = Point()
-        last_point.x = 8293.6396484375
-        last_point.y = 8293.6396484375
+        last_point.x = 0.0 #8293.6396484375
+        last_point.y = 0.0 #8293.6396484375
         # Список точек обозначающих границу зоны исследования
         # Example 1
         # self.point_list = [

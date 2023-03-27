@@ -114,7 +114,8 @@ class Snake_area_planner():
             # print("MOST_VECTOR :" + str(most_vector))
             # print("ZERO :" + str((most_vector[1].x - most_vector[0].x)**2) + " " + str((most_vector[1].y - most_vector[0].y)**2))
             return
-
+        
+        W = 0.0
         if most_vector[1].x - most_vector[0].x > 0.0:
             W = Alpha
         elif most_vector[1].x - most_vector[0].x < 0.0:
